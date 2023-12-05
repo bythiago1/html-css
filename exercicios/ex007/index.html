@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 724px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1024px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo audio</h1>
+    <p>Reproduzindo audio em html</p>
+    <audio>
+        <source src="midia/musica.mp3" type="audio/mpeg">
+    </audio>
+    <!-- MP3 type="audio/mpeg", WAV type="audio/ogg", OGG type="audio/wave" -->
+</body>
+</html>
