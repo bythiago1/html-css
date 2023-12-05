@@ -1,5 +1,0 @@
-GIT: Cria um repositório local para criar versões no seu computador
-
-Github: backup do repositório
-
-----------------------------------------------------------------------------
